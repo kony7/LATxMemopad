@@ -15,6 +15,7 @@
 		99A3E51125CB065800B989F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A3E50F25CB065800B989F5 /* LaunchScreen.storyboard */; };
 		99A3E51C25CB065900B989F5 /* MemopadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A3E51B25CB065900B989F5 /* MemopadTests.swift */; };
 		99A3E52725CB065900B989F5 /* MemopadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A3E52625CB065900B989F5 /* MemopadUITests.swift */; };
+		99A3E53825CDC36200B989F5 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A3E53725CDC36100B989F5 /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		99A3E52225CB065900B989F5 /* MemopadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemopadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A3E52625CB065900B989F5 /* MemopadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemopadUITests.swift; sourceTree = "<group>"; };
 		99A3E52825CB065900B989F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A3E53725CDC36100B989F5 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				99A3E50D25CB065800B989F5 /* Assets.xcassets */,
 				99A3E50F25CB065800B989F5 /* LaunchScreen.storyboard */,
 				99A3E51225CB065800B989F5 /* Info.plist */,
+				99A3E53725CDC36100B989F5 /* MemoViewController.swift */,
 			);
 			path = Memopad;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99A3E53825CDC36200B989F5 /* MemoViewController.swift in Sources */,
 				99A3E50925CB065500B989F5 /* ViewController.swift in Sources */,
 				99A3E50525CB065500B989F5 /* AppDelegate.swift in Sources */,
 				99A3E50725CB065500B989F5 /* SceneDelegate.swift in Sources */,
